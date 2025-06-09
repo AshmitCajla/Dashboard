@@ -1564,6 +1564,8 @@ def create_farm_groups(kharif_df):
         complied_col = f'Kharif 25 - AWD Study - Group {group_letter} - Complied (Y/N)'
         if group_letter == 'A':
             complied_col = 'Kharif 25 - AWD Study - Group A - Treatment - complied (Y/N)'
+        elif group_letter == 'B':
+            complied_col = 'Kharif 25 - AWD Study - Group B - Complied (Y/N)'
         elif group_letter == 'C':
             complied_col = 'Kharif 25 - AWD Study - Group C - Complied (Y/N)'
         

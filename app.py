@@ -1744,8 +1744,8 @@ def render_individual_farm_visualization(kharif_df, water_df, merged_df, farm_da
         y=farm_daily_filt_sorted["Water Level (mm)"],
         mode='lines+markers',
         name="Farm Average",
-        line=dict(width=3, color='black'),
-        marker=dict(symbol='diamond', size=10, color='black')
+        line=dict(width=3, color='white'),
+        marker=dict(symbol='diamond', size=10, color='white')
     ))
 
     fig1.update_layout(
